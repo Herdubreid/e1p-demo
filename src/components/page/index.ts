@@ -15,7 +15,7 @@ class ViewModel {
     constructor(params: { page: IPage }) {
         vm = this;
         this.page = params.page;
-        this.src$ = ko.observable(`/pages/${vm.page.id}/home.html`);
+        this.src$ = ko.observable(`/e1p-demo/pages/${vm.page.id}/home.html`);
     }
 }
 
