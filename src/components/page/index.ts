@@ -1,4 +1,4 @@
-// Data Service Component
+// Data Page Component
 import './style.scss';
 import * as ko from 'knockout';
 import { IPage } from '../../state';
