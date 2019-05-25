@@ -31,7 +31,8 @@ module.exports = {
         }),
         new ForkTsCheckerWebpackPlugin(),
         new CopyWebpackPlugin([
-            { from: 'pages', to: 'pages' }
+            { from: 'pages', to: 'e1p-sample/pages' },
+            { from: 'jde', to: 'jde' }
         ])
     ],
     module: {

@@ -10,6 +10,10 @@ let vm: ViewModel;
 class ViewModel {
     page: IPage;
     src$: ko.Observable<string>;
+    loading$ = ko.observable(true);
+    load() {
+        vm.loading$(false);
+    }
     descendantsComplete = () => {
     }
     constructor(params: { page: IPage }) {

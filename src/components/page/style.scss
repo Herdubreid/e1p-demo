@@ -4,4 +4,16 @@
         width: 100%;
         border: none;
     }
+
+    #spinner {
+        position: absolute;
+        left: 40%;
+        top: 40%;
+    }
+
+    .spinner-border {
+        width: 300px;
+        height: 300px;
+    }
+
 }

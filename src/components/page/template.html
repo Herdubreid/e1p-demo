@@ -1,3 +1,8 @@
 <div class="ab-inquiry">
-    <iframe data-bind="attr: { src: src$ }"></iframe>
+    <div id="spinner" class="d-flex justify-content-center">
+        <div data-bind="visible: loading$" class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <iframe data-bind="attr: { src: src$ }, event: { load: load }"></iframe>
 </div>
