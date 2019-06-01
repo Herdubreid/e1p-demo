@@ -18,8 +18,8 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            template: './src/home.html',
-            filename: 'home.html',
+            template: './src/index.html',
+            filename: 'index.html',
             minify: {
                 removeComments: true,
                 collapseWhitespace: true

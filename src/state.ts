@@ -49,5 +49,13 @@ export const defaultPages: IPage[] = [
         busy: false,
         sequence: 3,
         data: null
+    },
+    {
+        id: 'e1p-bing-map',
+        component: 'e1p-page',
+        title: 'Bing Map',
+        busy: false,
+        sequence: 4,
+        data: null
     }
 ];
