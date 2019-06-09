@@ -57,5 +57,13 @@ export const defaultPages: IPage[] = [
         busy: false,
         sequence: 4,
         data: null
+    },
+    {
+        id: 'e1p-omw-dash',
+        component: 'e1p-page',
+        title: 'OMW Dashboard',
+        busy: false,
+        sequence: 5,
+        data: null
     }
 ];
